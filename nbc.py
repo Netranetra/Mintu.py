@@ -197,6 +197,12 @@ os.system("xdg-open https://m.facebook.com/groups/822430109526151/")
 
 os.system('clear')
 
+import getpass
+
+attemps = 0
+
+
+
  Successfully Logged in.')
         break
 
