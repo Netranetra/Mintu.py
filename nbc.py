@@ -197,7 +197,6 @@ os.system("xdg-open https://m.facebook.com/groups/822430109526151/")
 
 os.system('clear')
 
-import
  Successfully Logged in.')
         break
 
